@@ -1,0 +1,48 @@
+
+@media screen and (max-width: 767px) {
+.container-img {
+    column-count: 3;
+    column-gap: 10px;
+}
+}
+@media screen and (min-device-width: 768px) and (max-device-width:991px) {
+.container-img {
+    column-count: 6;
+    column-gap: 10px;
+}
+}
+@media screen and (min-device-width: 992px) {
+.container-img {
+    column-count: 12;
+    column-gap: 90px;
+}
+}
+
+.logo{
+    padding-top: 20px;
+}
+
+
+.services_area{
+    background-color: #EEEEFF;
+    border-radius: 14px;
+    margin: 25px;
+}
+
+.glry {
+    width: 85%;
+    margin: 35px auto 15px auto;
+    display: block;
+    padding-bottom: 20px;
+}
+/* 
+.alert{
+    width: 100%;
+    background: rgb(0, 255, 106) ;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px ;
+    font-weight: 900;
+    display: none;
+} */
